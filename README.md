@@ -14,31 +14,31 @@ Impact : Shortage of workers, goverment higher expense on healthcare, different 
 
 ## Literature review
 
-Two papers are my main references:
+### Two papers are my main references:
 1) "Predicting population age structures of China, India, and Vietnam by 2030 based on compositional data" by Wei Y, Wang Z, Wang H, Li Y, Jiang Z (2019)
 2) "The isometric logratio transformation in compositional data analysis: a practical evaluation." by Greenacre, Michael & Grunsky, Eric. (2018)
 
-Main findings in my literature review:
+### Main findings in my literature review:
 
-Previous studies of prediction of population proportion by age 
+#### Previous studies of prediction of population proportion by age 
 - Isometric log-ratio transformation (ILR) outperform Linear combined component (LCC), and Dimension Reduction Approach through Hyperspherical Transformation (DRHT), base for compositional  data. The compositional data after prediction will have broken compositional data structure. After make the data compositional again, the prediction will be affected.
 - ARIMA and ETS outperform VAR and NNETTS. Note: small data set
 
-Previous studies on time series forecasting model : ARIMA and ETS
+#### Previous studies on time series forecasting model : ARIMA and ETS
 - ARIMA win in more cases
 
-Previous studies on the comparison of Isometric log ratio transformation (ILR) and summed log ratio transformation (SLR)
+####Previous studies on the comparison of Isometric log ratio transformation (ILR) and summed log ratio transformation (SLR)
 - SLR might be a better way to transform data as it preserve relationship of ratio better.
 
 ![image](https://user-images.githubusercontent.com/124423169/216757173-f6227841-0970-4ade-82dd-137fff7f427c.png)
 
-Previous studies on the comparison of multivariate and univariate time series model
+#### Previous studies on the comparison of multivariate and univariate time series model
 - ARIMA is univariate model. Performance of univariate about the same multivariate based on the papers I can access. Some multivariate time series model supporter said multivariate is better than univariate if the correlation between variable is high. However, in paper "Comparative Study between Univariate and Multivariate Linear Stationary Time Series Models" (2016) show that even the correlation between variables are high, univariate still better. 
 
-Previous studies on ARIMA hybrid model
+#### Previous studies on ARIMA hybrid model
 - Many models have hybrid with ARIMA and get a good result. They all use the same approaches, which is predict the residual produce by ARIMA. 
 
-Below are main things I done based on the findings.
+## Below are main things I done based on the findings.
 
 1) Compare performance of optimization method for ARIMA.
 Normally parameters of ARIMA is decided using AutoARIMA and ACF, PACF graph. I compared AutoARIMA with grid search method.
@@ -81,6 +81,8 @@ SLR2 inverse function equation (E, Y, K are variables of proportion. A, B, C are
 In both inverse function, E is assumed to be 1 to ease the calculation.
 
 
+## Main outcomes
+
 Performance of AutoARIMA(left) and grid search(right) with different kind of transformation and base data.
 ![image](https://user-images.githubusercontent.com/124423169/216758515-411d0286-b5d0-4987-ad6f-c4e35909a685.png)
 
@@ -94,6 +96,11 @@ Observation:
 
 -In grid search, ILR data perform better than SLR data while SLR2 data perform slightly better than ILR data. But in cross validation, ILR is better than SLR2, indicate overfit.
 
+
+
+![image](https://user-images.githubusercontent.com/124423169/216759342-27f98e86-18dd-4e50-a48d-7140ceb3f0eb.png)
+
+In 2041, elder will increase reach 15.0045%, youth is predicted to reach 65.6714% of population, while kid will decrease and reach 19.3241%. 
 
 ## The flows
 
