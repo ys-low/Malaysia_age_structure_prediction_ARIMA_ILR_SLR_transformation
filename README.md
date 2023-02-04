@@ -9,7 +9,7 @@ The whole flow of how it works
 
 All the data used
 
-<img src="https://user-images.githubusercontent.com/124423169/216754439-88d9258f-ab90-44fa-bf0a-54497cc49666.png" width="30%" height="30%">
+<img src="https://user-images.githubusercontent.com/124423169/216754811-c5048ef9-ff3a-4fbf-92ff-8b99ec95dc74.png" width="30%" height="30%">
 
 Flow of ARIMA
 
