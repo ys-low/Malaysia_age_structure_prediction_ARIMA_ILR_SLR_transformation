@@ -39,6 +39,10 @@ Below are main things I done based on the findings.
 1) Compare performance of optimization method for ARIMA.
 Normally parameters of ARIMA is decided using AutoARIMA and ACF, PACF graph. I compared AutoARIMA with grid search method.
 
+p, d, q chosen for ARIMA
+![image](https://user-images.githubusercontent.com/124423169/216759176-9913575a-f79b-407c-9b93-50f82157ff31.png)
+
+
 2) Create function for SLR. (transform and inverse transform)
 ILR has existing function in scikit-bio. SLR do not have any in python. Function built base on the formula of SLR and different kind of comparison in log ratio tried.
 
