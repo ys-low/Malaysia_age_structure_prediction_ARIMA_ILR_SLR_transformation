@@ -40,6 +40,7 @@ Below are main things I done based on the findings.
 Normally parameters of ARIMA is decided using AutoARIMA and ACF, PACF graph. I compared AutoARIMA with grid search method.
 
 p, d, q chosen for ARIMA
+
 ![image](https://user-images.githubusercontent.com/124423169/216759176-9913575a-f79b-407c-9b93-50f82157ff31.png)
 
 
