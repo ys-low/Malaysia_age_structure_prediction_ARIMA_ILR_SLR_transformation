@@ -42,31 +42,39 @@ Normally parameters of ARIMA is decided using AutoARIMA and ACF, PACF graph. I c
 2) Create function for SLR. (transform and inverse transform)
 ILR has existing function in scikit-bio. SLR do not have any in python. Function built base on the formula of SLR and different kind of comparison in log ratio tried.
 
+
 SLR formula
 
 ![image](https://user-images.githubusercontent.com/124423169/216758160-cdb9a1bb-f211-4338-b7b0-4be365c9dc81.png)
+
 
 SLR equation 
 
 ![image](https://user-images.githubusercontent.com/124423169/216758199-9cf2b3ad-a460-4f2d-a2fe-c9866364cdc7.png)
 
+
 SLR2 equation
 
 ![image](https://user-images.githubusercontent.com/124423169/216758234-123ccdca-5279-4432-9698-017c112ec63e.png)
+
 
 SLR inverse function equation (E, Y, K are variables of proportion. A, B, C are constant which is the transformed data value)
 
 ![image](https://user-images.githubusercontent.com/124423169/216758289-bef5c39b-493a-4bfa-a44c-ebd075c71b1e.png)
 ![image](https://user-images.githubusercontent.com/124423169/216758300-16adef54-6019-45e9-b211-60c07fcd8e5f.png)
 
+
 SLR2 inverse function equation (E, Y, K are variables of proportion. A, B, C are constant which is the transformed data value)
 
 ![image](https://user-images.githubusercontent.com/124423169/216758330-207c11c8-a38d-43a7-8457-efa5b4ccbc09.png)
 
+
 In both inverse function, E is assumed to be 1 to ease the calculation.
+
 
 Performance of AutoARIMA(left) and grid search(right) with different kind of transformation and base data.
 ![image](https://user-images.githubusercontent.com/124423169/216758515-411d0286-b5d0-4987-ad6f-c4e35909a685.png)
+
 
 
 
@@ -74,17 +82,21 @@ The flow of file
 
 <img src="https://user-images.githubusercontent.com/124423169/216753836-38657a64-57fa-4389-bc54-678b89745581.png" width="30%" height="30%">
 
+
 The whole flow of how it works
 
 <img src="https://user-images.githubusercontent.com/124423169/216754299-61c71ce6-e0de-4667-b1fa-2a24fbf85203.png" width="30%" height="30%">
+
 
 All the data used
 
 <img src="https://user-images.githubusercontent.com/124423169/216754811-c5048ef9-ff3a-4fbf-92ff-8b99ec95dc74.png" width="30%" height="30%">
 
+
 Flow of ARIMA
 
 <img src="https://user-images.githubusercontent.com/124423169/216754689-7370629c-6c32-4b66-a4a9-c2e7e2da94c1.png" width="30%" height="30%">
+
 
 Flow of XGBoost with ARIMA
 
