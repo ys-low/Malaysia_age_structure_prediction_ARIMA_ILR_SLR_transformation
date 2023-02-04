@@ -1,6 +1,6 @@
 # Malaysia_age_structure_prediction_ARIMA_ILR_SLR_transformation
 The flow of file
-![Blank diagram (3)](https://user-images.githubusercontent.com/124423169/216753836-38657a64-57fa-4389-bc54-678b89745581.png, width=100)
+![Blank diagram (3)](https://user-images.githubusercontent.com/124423169/216753836-38657a64-57fa-4389-bc54-678b89745581.png=100*500)
 
 The whole flow of how it works
 ![ARIMA part (3)](https://user-images.githubusercontent.com/124423169/216753881-8e68004c-a605-457d-8a7c-6887a1f6776a.png)
