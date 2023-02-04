@@ -4,11 +4,15 @@ This project is about predict age structure of Malaysia.
 
 Ex: Kid(33%), Youth(33%), Elder(34%)
 
-Why predict age structure of Malaysia is important? Malaysia has ageing population. WHO predict 1/6 person will be more than 60 by 2030. Based on standard of United Nations, 7% elder is considered ageing population and Malaysia reach 7.12% in 2020.
+## Why predict age structure of Malaysia is important? 
+
+Malaysia has ageing population. WHO predict 1/6 person will be more than 60 by 2030. Based on standard of United Nations, 7% elder is considered ageing population and Malaysia reach 7.12% in 2020.
 
 Cause : Live healthier and longer live expectancy, more educated population with birth control.
 
 Impact : Shortage of workers, goverment higher expense on healthcare, different population savings and consumption patterns
+
+## Literature review
 
 Two papers are my main references:
 1) "Predicting population age structures of China, India, and Vietnam by 2030 based on compositional data" by Wei Y, Wang Z, Wang H, Li Y, Jiang Z (2019)
@@ -91,6 +95,7 @@ Observation:
 -In grid search, ILR data perform better than SLR data while SLR2 data perform slightly better than ILR data. But in cross validation, ILR is better than SLR2, indicate overfit.
 
 
+## The flows
 
 The flow of file
 
