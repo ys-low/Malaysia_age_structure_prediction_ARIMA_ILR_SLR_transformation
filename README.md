@@ -80,6 +80,7 @@ In both inverse function, E is assumed to be 1 to ease the calculation.
 ## Main outcomes
 
 d chosen using stationary test
+
 ![image](https://user-images.githubusercontent.com/124423169/216760042-1d19520b-2c40-40c5-b103-58737c059f6f.png)
 
 
