@@ -102,6 +102,23 @@ Observation:
 
 In 2041, elder will increase reach 15.0045%, youth is predicted to reach 65.6714% of population, while kid will decrease and reach 19.3241%. 
 
+## Some conclusion
+- For short univariate linear time series data without seasonality and cycle, ARIMA is a good model for prediction. 
+
+- In this case, instead of inference order p, d, q using ACF, PACF plot or use Auto ARIMA, grid search can be considered.
+
+- For compositional data, various kind of transformation should be considered for better performance. 
+
+## Recommendation
+- SLR still other ways to compare ratio can be tried out. 
+
+- Instead of use ILR function that existed, self made ILR function can be more customizable
+
+- Order can also be determined when observing ACF and PACF plot. 
+
+- For hybrid of model, there might be more models can be tried to predict residual left by ARIMA. 
+
+
 ## The flows
 
 The flow of file
