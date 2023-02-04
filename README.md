@@ -43,19 +43,24 @@ Normally parameters of ARIMA is decided using AutoARIMA and ACF, PACF graph. I c
 ILR has existing function in scikit-bio. SLR do not have any in python. Function built base on the formula of SLR and different kind of comparison in log ratio tried.
 
 SLR formula
+
 ![image](https://user-images.githubusercontent.com/124423169/216758160-cdb9a1bb-f211-4338-b7b0-4be365c9dc81.png)
 
 SLR equation 
+
 ![image](https://user-images.githubusercontent.com/124423169/216758199-9cf2b3ad-a460-4f2d-a2fe-c9866364cdc7.png)
 
 SLR2 equation
+
 ![image](https://user-images.githubusercontent.com/124423169/216758234-123ccdca-5279-4432-9698-017c112ec63e.png)
 
 SLR inverse function equation (E, Y, K are variables of proportion. A, B, C are constant which is the transformed data value)
+
 ![image](https://user-images.githubusercontent.com/124423169/216758289-bef5c39b-493a-4bfa-a44c-ebd075c71b1e.png)
 ![image](https://user-images.githubusercontent.com/124423169/216758300-16adef54-6019-45e9-b211-60c07fcd8e5f.png)
 
 SLR2 inverse function equation (E, Y, K are variables of proportion. A, B, C are constant which is the transformed data value)
+
 ![image](https://user-images.githubusercontent.com/124423169/216758330-207c11c8-a38d-43a7-8457-efa5b4ccbc09.png)
 
 In both inverse function, E is assumed to be 1 to ease the calculation.
