@@ -75,6 +75,11 @@ In both inverse function, E is assumed to be 1 to ease the calculation.
 Performance of AutoARIMA(left) and grid search(right) with different kind of transformation and base data.
 ![image](https://user-images.githubusercontent.com/124423169/216758515-411d0286-b5d0-4987-ad6f-c4e35909a685.png)
 
+Observation:
+-Grid Search outperform Auto ARIMA in optimization. 
+-Original data general perform worse than transformed data.
+-Notice Auto ARIMA of ILR and SLR has performance almost the same in testing but ILR better in cross validation indicate a possible overfit of using ILR.
+-In grid search, ILR data perform better than SLR data while SLR2 data perform slightly better than ILR data. But in cross validation, ILR is better than SLR2, indicate overfit.
 
 
 
