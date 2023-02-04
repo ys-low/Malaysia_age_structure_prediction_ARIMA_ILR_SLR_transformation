@@ -8,12 +8,13 @@ The whole flow of how it works
 <img src="https://user-images.githubusercontent.com/124423169/216754299-61c71ce6-e0de-4667-b1fa-2a24fbf85203.png" width="30%" height="30%">
 
 All the data used
-![image](https://user-images.githubusercontent.com/124423169/216753939-d079633b-82ff-4e36-87b2-ed2fcc92715a.png)
+
+<img src="https://user-images.githubusercontent.com/124423169/216754439-88d9258f-ab90-44fa-bf0a-54497cc49666.png" width="30%" height="30%">
 
 Flow of ARIMA
-![image](https://user-images.githubusercontent.com/124423169/216753959-03be7f7c-f74e-4b55-a3ed-2f13e85a1461.png)
+
+<img src="https://user-images.githubusercontent.com/124423169/216754689-7370629c-6c32-4b66-a4a9-c2e7e2da94c1.png" width="30%" height="30%">
 
 Flow of XGBoost with ARIMA
-![image](https://user-images.githubusercontent.com/124423169/216753968-5f30cb45-9d22-4204-a357-faeabae25c33.png)
-![ARIMA part (4)](https://user-images.githubusercontent.com/124423169/216754299-61c71ce6-e0de-4667-b1fa-2a24fbf85203.png)
 
+<img src="https://user-images.githubusercontent.com/124423169/216754769-65f43340-8205-472c-ab07-c4b0a1e9a654.png" width="30%" height="30%">
