@@ -1,8 +1,9 @@
 # Malaysia_age_structure_prediction_ARIMA_ILR_SLR_transformation
 
-Why predict age structure of Malaysia is important?
-WHO predict 1/6 person will be more than 60 by 2030.
+Why predict age structure of Malaysia is important? WHO predict 1/6 person will be more than 60 by 2030.
+
 Cause : Live healthier and longer live expectancy, more educated population with birth control.
+
 Impact : Shortage of workers, goverment higher expense on healthcare, different population savings and consumption patterns
 
 Two papers are my main references:
