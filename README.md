@@ -43,10 +43,6 @@ Impact : Shortage of workers, goverment higher expense on healthcare, different 
 1) Compare performance of optimization method for ARIMA.
 Normally parameters of ARIMA is decided using AutoARIMA and ACF, PACF graph. I compared AutoARIMA with grid search method.
 
-p, d, q chosen for ARIMA
-
-![image](https://user-images.githubusercontent.com/124423169/216759176-9913575a-f79b-407c-9b93-50f82157ff31.png)
-
 
 2) Create function for SLR. (transform and inverse transform)
 ILR has existing function in scikit-bio. SLR do not have any in python. Function built base on the formula of SLR and different kind of comparison in log ratio tried.
@@ -82,6 +78,15 @@ In both inverse function, E is assumed to be 1 to ease the calculation.
 
 
 ## Main outcomes
+
+d chosen using stationary test
+![image](https://user-images.githubusercontent.com/124423169/216760042-1d19520b-2c40-40c5-b103-58737c059f6f.png)
+
+
+
+p, d, q chosen for ARIMA
+
+![image](https://user-images.githubusercontent.com/124423169/216759176-9913575a-f79b-407c-9b93-50f82157ff31.png)
 
 Performance of AutoARIMA(left) and grid search(right) with different kind of transformation and base data.
 ![image](https://user-images.githubusercontent.com/124423169/216758515-411d0286-b5d0-4987-ad6f-c4e35909a685.png)
